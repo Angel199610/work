@@ -14,23 +14,12 @@
 #integer(int)
 num1 = 5
 num2 = 8.4
-#print(num1, num2)
+print(num1 + num2)
 
 #Integers (int)additional work
 John = 4
 Raum = 9
 Wonder = 12
-total_amount = ("John, Raum, Wonder")
-#print(total_amount)
+print(John + Raum + Wonder)
 
-#re-declaring num to store an integer
-num = "9"
-num = int(num)
-#print(type(num))
 
-def myfunc():
-  global x
-  x = "fantastic"
-
-myfunc()
-print("Python is " + x)
